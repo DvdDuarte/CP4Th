@@ -36,7 +36,6 @@ void mmult() {
 int main() {
     alloc();
     init();
-    transposta()
     mmult();
     printf("%f\n", C[size/2+5]);
 }
